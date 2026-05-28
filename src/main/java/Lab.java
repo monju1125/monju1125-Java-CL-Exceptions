@@ -19,6 +19,6 @@ public class Lab {
      * a method thrown to it. A try/catch block would handle the exception within the method.
      */
     public void mustThrow() throws Exception{
-
+        throw new Exception();
     }
 }
